@@ -1,0 +1,8 @@
+#-----------------------------
+# $File: psx,v 1.0 2017/05/17 ennism $
+# psx: file(1) magic for files directly related to PSX (PlayStation 1) developement
+# 
+# Author: Ennis Massey <ennisbaradine@gmail.com>
+0x0	string	CPE PSX CPE file (executable)
+>0x3 byte x , Version %d
+>>>0x8 byte 0x00 
