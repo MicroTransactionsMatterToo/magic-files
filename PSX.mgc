@@ -3,6 +3,14 @@
 # psx: file(1) magic for files directly related to PSX (PlayStation 1) developement
 # 
 # Author: Ennis Massey <ennisbaradine@gmail.com>
+
+# PSX CPE file, appears to map CD regions
 0x0	string	CPE PSX CPE file (executable)
 >0x3 byte x , Version %d
->>>0x8 byte 0x00 
+>>0x8 byte 0x00 
+
+# PSX SYM file, stores symbols for debugging
+0x0 string MND PSX Symbol File
+>0x3 byte x , Version %d
+
+

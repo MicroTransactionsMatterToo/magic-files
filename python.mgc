@@ -1,0 +1,134 @@
+
+#------------------------------------------------------------------------------
+# $File: python,v 1.27 2015/09/08 13:59:44 christos Exp $
+# python:  file(1) magic for python
+#
+# Outlook puts """ too for urgent messages
+# From: David Necas <yeti@physics.muni.cz>
+# often the module starts with a multiline string
+0    string/t  """  Python script text executable
+# MAGIC as specified in Python/import.c (1.5 to 2.7a0 and 3.1a0, assuming
+# that Py_UnicodeFlag is off for Python 2)
+# 20121  ( YEAR - 1995 ) + MONTH  + DAY (little endian followed by "\r\n"
+# !! NOTE: Some versions had opcode patches which changed the magic number. This is why there are duplicates !!
+0 belong 0x99e40d0a Python 1.5 BYTE COMPILED FILE
+0 belong 0x99e40d0a Python 1.5.1 BYTE COMPILED FILE
+0 belong 0x99e40d0a Python 1.5.2 BYTE COMPILED FILE
+0 belong 0xfc4c0d0a Python 1.6 BYTE COMPILED FILE
+0 belong 0x906c0d0a Python 2.0 BYTE COMPILED FILE
+0 belong 0x876c0d0a Python 2.0.1 BYTE COMPILED FILE
+0 belong 0x2abe0d0a Python 2.1 BYTE COMPILED FILE
+0 belong 0x2abe0d0a Python 2.1.1 BYTE COMPILED FILE
+0 belong 0x2abe0d0a Python 2.1.2 BYTE COMPILED FILE
+0 belong 0x2dde0d0a Python 2.2 BYTE COMPILED FILE
+0 belong 0x3b2f0d0a Python 2.3a0 BYTE COMPILED FILE
+0 belong 0x452f0d0a Python 2.3a0 BYTE COMPILED FILE
+0 belong 0x592f0d0a Python 2.4a0 BYTE COMPILED FILE
+0 belong 0x772f0d0a Python 2.5a0 BYTE COMPILED FILE
+0 belong 0x812f0d0a Python 2.5a0 BYTE COMPILED FILE
+0 belong 0x8b2f0d0a Python 2.5a0 BYTE COMPILED FILE
+0 belong 0x8c2f0d0a Python 2.5a0 BYTE COMPILED FILE
+0 belong 0x952f0d0a Python 2.5b3 BYTE COMPILED FILE
+0 belong 0x9f2f0d0a Python 2.5b3 BYTE COMPILED FILE
+0 belong 0xa92f0d0a Python 2.5c1 BYTE COMPILED FILE
+0 belong 0xb32f0d0a Python 2.5c22 BYTE COMPILED FILE
+0 belong 0xc72f0d0a Python 2.6a0 BYTE COMPILED FILE
+0 belong 0xdb2f0d0a Python 2.7a0 BYTE COMPILED FILE
+0 belong 0xe52f0d0a Python 2.7a0 BYTE COMPILED FILE
+0 belong 0xef2f0d0a Python 2.7a0 BYTE COMPILED FILE
+0 belong 0xf92f0d0a Python 2.7a0 BYTE COMPILED FILE
+0 belong 0x33f0d0a Python 2.7a0 BYTE COMPILED FILE
+0 belong 0xb80b0d0a Python 3000 BYTE COMPILED FILE
+0 belong 0xc20b0d0a Python 3000 BYTE COMPILED FILE
+0 belong 0xcc0b0d0a Python 3000 BYTE COMPILED FILE
+0 belong 0xd60b0d0a Python 3000 BYTE COMPILED FILE
+0 belong 0xe00b0d0a Python 3000 BYTE COMPILED FILE
+0 belong 0xea0b0d0a Python 3000 BYTE COMPILED FILE
+0 belong 0xf40b0d0a Python 3000 BYTE COMPILED FILE
+0 belong 0xf50b0d0a Python 3000 BYTE COMPILED FILE
+0 belong 0xff0b0d0a Python 3000 BYTE COMPILED FILE
+0 belong 0x90c0d0a Python 3000 BYTE COMPILED FILE
+0 belong 0x130c0d0a Python 3000 BYTE COMPILED FILE
+0 belong 0x1d0c0d0a Python 3000 BYTE COMPILED FILE
+0 belong 0x1f0c0d0a Python 3000 BYTE COMPILED FILE
+0 belong 0x270c0d0a Python 3.0a4 BYTE COMPILED FILE
+0 belong 0x3b0c0d0a Python 3.0a5 BYTE COMPILED FILE
+0 belong 0x450c0d0a Python 3.1a0 BYTE COMPILED FILE
+0 belong 0x4f0c0d0a Python 3.1a0 BYTE COMPILED FILE
+0 belong 0x580c0d0a Python 3.2a0 BYTE COMPILED FILE
+0 belong 0x620c0d0a Python 3.2a1 BYTE COMPILED FILE
+0 belong 0x6c0c0d0a Python 3.2a2 BYTE COMPILED FILE
+0 belong 0x760c0d0a Python 3.3a0 BYTE COMPILED FILE
+0 belong 0x800c0d0a Python 3.3a0 BYTE COMPILED FILE
+0 belong 0x940c0d0a Python 3.3a1 BYTE COMPILED FILE
+0 belong 0x9e0c0d0a Python 3.3a4 BYTE COMPILED FILE
+0 belong 0xb20c0d0a Python 3.4a1 BYTE COMPILED FILE
+0 belong 0xbc0c0d0a Python 3.4a1 BYTE COMPILED FILE
+0 belong 0xc60c0d0a Python 3.4a1 BYTE COMPILED FILE
+0 belong 0xd00c0d0a Python 3.4a1 BYTE COMPILED FILE
+0 belong 0xda0c0d0a Python 3.4a4 BYTE COMPILED FILE
+0 belong 0xe40c0d0a Python 3.4a4 BYTE COMPILED FILE
+0 belong 0xee0c0d0a Python 3.4rc2 BYTE COMPILED FILE
+0 belong 0xf80c0d0a Python 3.5a0 BYTE COMPILED FILE
+0 belong 0x20d0d0a Python 3.5b1 BYTE COMPILED FILE
+0 belong 0xc0d0d0a Python 3.5b2 BYTE COMPILED FILE
+0 belong 0x160d0d0a Python 3.5b2 BYTE COMPILED FILE
+0 belong 0x170d0d0a Python 3.5.2 BYTE COMPILED FILE
+0 belong 0x200d0d0a Python 3.6a0 BYTE COMPILED FILE
+0 belong 0x210d0d0a Python 3.6a0 BYTE COMPILED FILE
+0 belong 0x2a0d0d0a Python 3.6a1 BYTE COMPILED FILE
+0 belong 0x2b0d0d0a Python 3.6a1 BYTE COMPILED FILE
+0 belong 0x2c0d0d0a Python 3.6a1 BYTE COMPILED FILE
+0 belong 0x2d0d0d0a Python 3.6b1 BYTE COMPILED FILE
+0 belong 0x2f0d0d0a Python 3.6b1 BYTE COMPILED FILE
+0 belong 0x300d0d0a Python 3.6b1 BYTE COMPILED FILE
+0 belong 0x310d0d0a Python 3.6b1 BYTE COMPILED FILE
+0 belong 0x320d0d0a Python 3.6b2 BYTE COMPILED FILE
+0 belong 0x330d0d0a Python 3.6rc1 BYTE COMPILED FILE
+0 belong 0x3e0d0d0a Python 3.7a0 BYTE COMPILED FILE
+
+0    search/1/w     #!\ /usr/bin/python Python script text executable
+!:strength + 10
+!:mime text/x-python
+0    search/1/w     #!\ /usr/local/bin/python     Python script text executable
+!:strength + 10
+!:mime text/x-python
+0    search/1  #!/usr/bin/env\ python   Python script text executable
+!:strength + 10
+!:mime text/x-python
+0    search/10 #!\ /usr/bin/env\ python Python script text executable
+!:strength + 10
+!:mime text/x-python
+
+
+# from module.submodule import func1, func2
+0    regex     \^from\\s+(\\w|\\.)+\\s+import.*$  Python script text executable
+!:mime text/x-python
+
+# def __init__ (self, ...):
+0    search/4096    def\ __init__
+>&0  search/64 self Python script text executable
+!:mime text/x-python
+
+# comments
+#0   search/4096    '''
+#>&0 regex     .*'''$    Python script text executable
+#!:mime text/x-python
+
+#0   search/4096    """
+#>&0 regex     .*"""$    Python script text executable
+#!:mime text/x-python
+
+# try:
+# except: or finally:
+# block
+0    search/4096    try:
+>&0  regex     \^\\s*except.*:     Python script text executable
+!:mime text/x-python
+>&0  search/4096    finally:  Python script text executable
+!:mime text/x-python
+
+# def name(args, args):
+0    regex      \^(\ |\\t){0,50}def\ {1,50}[a-zA-Z]{1,100}
+>&0  regex     \ {0,50}\\(([a-zA-Z]|,|\ ){1,255}\\):$ Python script text executable
+!:mime text/x-python
